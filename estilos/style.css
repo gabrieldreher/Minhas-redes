@@ -9,11 +9,11 @@
 html, body {
     height: 100vh;
     width: 100vw;
-    background-color: #5e768e;
+    background-color: #f4d6ae;
 }
 
 body {
-    background: url(../imagens/tela-base.png) no-repeat top center;
+    background: url(../imagens/background.png) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -29,7 +29,15 @@ section#note {
     left: 50%;
     transform: translate(-50%,-50%);
 
-    background: url(../imagens/tela.png);
-    width: 900px;
-    height: 700px;
+    background: url(../imagens/note.png) no-repeat;
+    width: 1270px;
+    height: 720px;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 249px;
+    width: 800px;
+    height: 440px;
 }

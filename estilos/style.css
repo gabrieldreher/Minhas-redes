@@ -6,7 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
+ body {
     height: 100vh;
     width: 100vw;
     background-color: #f4d6ae;
@@ -37,7 +37,25 @@ section#note {
 iframe#tela {
     position: relative;
     top: 80px;
-    left: 353px;
-    width: 697px;
+    left: 385px;
+    width: 665px;
     height: 440px;
+}
+
+article#redes {
+    padding-top: 50px;
+    position: absolute;
+    background-color: #383838;
+    width: 160px;
+    height: 392px;
+    left: 225px;
+    top: 78px;
+    box-shadow: 3px 0px 6px 0px rgba(0, 0, 0, 0.479);
+    
+}
+
+img {
+    width: 155px;
+    margin-left: 5px;
+    
 }

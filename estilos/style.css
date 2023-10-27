@@ -54,8 +54,18 @@ article#redes {
     
 }
 
-img {
+article#redes img {
     width: 155px;
     margin-left: 5px;
-    
+    box-sizing: border-box;
 }
+
+article#redes img:hover {
+    transform: translate(3px, 0px);
+    transition: transform 0.3s;
+}
+
+article#redes img:active {
+    transform: translate(0px, 3px);
+}
+
